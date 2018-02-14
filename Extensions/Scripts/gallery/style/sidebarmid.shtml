@@ -1,0 +1,7 @@
+<!--#if expr="${QUERY_STRING} == /print/" -->
+<!-- No sidebar when in printable mode -->
+<!--#else -->
+<ul>
+  <!--#include virtual="/private/gallery/sidebar.html" -->
+</ul>
+<!--#endif -->

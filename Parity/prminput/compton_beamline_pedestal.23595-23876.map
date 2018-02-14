@@ -1,0 +1,43 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Compton Scaler BeamLine                     !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! This file contains the pedestals for the scalers.
+! Respect the format of the file!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Scaler BCM pedestals
+!! Pedestal should be zero! Change only if you
+!! know what you are doing!!!
+! channel name, pedestal=0, frequency
+!sca_4mhz, 0, 4e6
+sca_4mhz, 0, 2.5e-7
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Scaler BCM pedestals
+! channel name, pedestal,gain
+! Calibrations come from revision r4565 run 22617
+! Starting with run 23585 BCM6 gain changed
+sca_bcm1,        249960,        0.000561638
+sca_bcm2,        250069,        0.000609775
+sca_bcm6,        249541,        0.00208825
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Scaler BPM pedestals
+! channel name, pedestal,gain
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!  HallC BPM pedestals (per sample) obtained using
+! Calibrations come from ELOG entry 243
+sca_bpm_3p02aXP,  1202.32, 1.0, 1.0,  0.0
+sca_bpm_3p02aXM,  1184.99, 1.0, 1.0,  0.0
+sca_bpm_3p02aYP,  1197.85, 1.0, 1.0,  0.0
+sca_bpm_3p02aYM,  1186.92, 1.0, 1.0,  0.0
+sca_bpm_3p02bXP,  1196.10, 1.0, 1.0,  0.0
+sca_bpm_3p02bXM,  1194.02, 1.0, 1.0,  0.0
+sca_bpm_3p02bYP,  1196.39, 1.0, 1.0,  0.0
+sca_bpm_3p02bYM,  1207.26, 1.0, 1.0,  0.0
+sca_bpm_3p03aXP,  1192.81, 1.0, 1.0,  0.0
+sca_bpm_3p03aXM,  1094.79, 1.0, 1.0,  0.0
+sca_bpm_3p03aYP,  1184.31, 1.0, 1.0,  0.0
+sca_bpm_3p03aYM,  1202.05, 1.0, 1.0,  0.0
